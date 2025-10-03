@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  padding: 20px;
+}
+
+h1 { text-align: center; }
+
+.diary-form {
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+.diary-entry {
+  display: flex;
+  align-items: flex-start;
+  background: #fff;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.entry-content {
+  flex: 1;
+}
+
+.entry-images {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 15px;
+}
+
+.entry-images img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  margin: 3px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.emoji-selector span {
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.selected {
+  border: 2px solid #333;
+  border-radius: 5px;
+  padding: 2px;
+}
+input,textarea {
+    padding: 8px;
+    border-radius: 6px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e7e7e7;
+}
+button {
+    padding: 8px;
+    border-radius: 6px;
+    border: none;
+    background-color: dodgerblue;
+    color: white
+}
